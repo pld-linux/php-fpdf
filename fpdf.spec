@@ -1,5 +1,6 @@
 %define	sver	%(echo %{version} | tr -d .)
-Summary:	PHP class  which allows to generate PDF files with pure PHP
+Summary:	PHP class which allows to generate PDF files with pure PHP
+Summary(pl):	Klasa PHP pozwalaj±ca na generowanie plikow PDF w czystym PHP
 Name:		fpdf
 Version:	1.53
 Release:	1
@@ -21,6 +22,11 @@ FPDF is a PHP class which allows to generate PDF files with pure PHP,
 that is to say without using the PDFlib library. F from FPDF stands
 for Free: you may use it for any kind of usage and modify it to suit
 your needs.
+
+%description -l pl
+FPDF to klasa PHP pozwalaj±ca na generowanie plików PDF w czystym PHP,
+tzn. bez u¿ycia biblioteki PDFlib. F z FPDF oznacza "Free": mo¿na jej
+u¿ywaæ w dowolny sposób i modyfikowaæ w zale¿no¶ci od potrzeb.
 
 %prep
 %setup  -q -n %{name}%{sver}
