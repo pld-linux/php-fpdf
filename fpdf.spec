@@ -1,6 +1,6 @@
 %define	sver	%(echo %{version} | tr -d .)
 Summary:	PHP class which allows to generate PDF files with pure PHP
-Summary(pl.UTF-8):   Klasa PHP pozwalająca na generowanie plikow PDF w czystym PHP
+Summary(pl.UTF-8):	Klasa PHP pozwalająca na generowanie plikow PDF w czystym PHP
 Name:		fpdf
 Version:	1.53
 Release:	1
