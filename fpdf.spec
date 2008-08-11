@@ -13,6 +13,7 @@ Source0:	%{name}%{sver}.tgz
 Source1:	fpdf-draw.php
 # Source1-md5:	cd7711f7b39a0066ac20cb3f535ba973
 Source2:	%{name}-verdana.tar.gz
+# Source2-md5:	101cd6ae9867ade8cbb12973a35e83f8
 URL:		http://www.fpdf.org/
 Requires:	php-common
 BuildArch:	noarch
