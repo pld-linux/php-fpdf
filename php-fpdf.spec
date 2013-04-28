@@ -30,6 +30,13 @@ FPDF to klasa PHP pozwalająca na generowanie plików PDF w czystym PHP,
 tzn. bez użycia biblioteki PDFlib. F z FPDF oznacza "Free": można jej
 używać w dowolny sposób i modyfikować w zależności od potrzeb.
 
+%package doc
+Summary:	Documentation for FPDF
+Group:		Documentation
+
+%description doc
+Documentation for FPDF.
+
 %prep
 %setup -q -n fpdf%{sver} -a2
 
@@ -45,5 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc tutorial *.htm *.txt
 %{php_data_dir}/fpdf
+
+%files doc
+%defattr(644,root,root,755)
+%doc doc tutorial *.htm *.txt
