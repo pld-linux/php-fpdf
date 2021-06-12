@@ -2,12 +2,13 @@
 Summary:	PHP class which allows to generate PDF files with pure PHP
 Summary(pl.UTF-8):	Klasa PHP pozwalająca na generowanie plikow PDF w czystym PHP
 Name:		php-fpdf
-Version:	1.7
+Version:	1.83
 Release:	1
 License:	Freeware
 Group:		Libraries
-Source0:	http://fpdf.org/en/dl.php?v=17&f=tgz?/fpdf%{sver}.tgz
-# Source0-md5:	39b27b785695211ab66a36264b149f2b
+# Source0:	http://fpdf.org/en/dl.php?v=183&f=tgz?/fpdf%{sver}.tgz
+Source0:	fpdf%{sver}.tgz
+# Source0-md5:	a2df6bf87895229a9bd04980df8ca27e
 # http://www.fpdf.de/downloads/addons/69/
 Source1:	fpdf-draw.php
 # Source1-md5:	cd7711f7b39a0066ac20cb3f535ba973
